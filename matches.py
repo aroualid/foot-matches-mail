@@ -110,5 +110,5 @@ if matches_by_competition:
 
     print("✅ Email envoyé avec succès.")
 else:
-    print("Aucun match trouvé.")
+    print("Aucun match trouvé.") 
 
