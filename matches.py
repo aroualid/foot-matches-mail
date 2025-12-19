@@ -65,7 +65,7 @@ for name, comp_id in competitions.items():
 
             # --- Diffuseur ---
             broadcaster = ""
-            if "Premier League" in name:
+            if "Premier League" in name or "Champions League" in name or "Europa League" in name:
                 broadcaster = "Canal+"
             elif name in european_comps:
                 broadcaster = "Canal+"
